@@ -15,6 +15,14 @@
 
 ## Requirements
 
+### Python Requirements
+
+- Install Python packages:
+
+  ```bash
+  pip3 install colorama>=0.4.6
+  ```
+
 ### Mandatory Tools
 - [nmap](https://nmap.org/)
 - [naabu](https://github.com/projectdiscovery/naabu)

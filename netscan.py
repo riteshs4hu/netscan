@@ -27,7 +27,7 @@ def banner():
     print(" / / / /  __/ /_(__  ) /__/ /_/ / / / /")
     print("/_/ /_/\\___/\\__/____/\\___/\\__,_/_/ /_/ ")
     print("                                       ")
-    print("    github.com/riteshs4hu")
+    print("                  github.com/riteshs4hu")
     print("\n")
 
 

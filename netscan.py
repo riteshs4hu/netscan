@@ -96,7 +96,7 @@ def NIKTO():
 
 def TESTSSL():
     print(f"{INFO_PRINT()} Testssl Run on Web urls")
-    subprocess.run(f"testssl --quiet --overwrite --logfile {TESTSSL_SCAN} --file {WEB_URLS}", capture_output=True, text=True, shell=True)
+    subprocess.run(f"testssl --quiet --logfile {TESTSSL_SCAN} --file {WEB_URLS}", capture_output=True, text=True, shell=True)
     print(f"{SUCCESS_PRINT()} Testssl Scan is Complete")
 
 def WHATWEB():
